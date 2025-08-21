@@ -512,7 +512,7 @@
       "plot": "../../../pngerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "PNCATEHO.step",
+      "step": "../../../../Downloads/PNCATEHO.step",
       "svg": "",
       "vrml": ""
     },
