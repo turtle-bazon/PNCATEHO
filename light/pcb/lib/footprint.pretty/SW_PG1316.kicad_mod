@@ -1,0 +1,175 @@
+(footprint "SW_PG1316"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PG1316 switch, SMD, one side")
+	(property "Reference" "REF**"
+		(at -0.01 7.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "54574201-9a12-422a-9348-122221397bfd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a59ee2d6-5fbf-4943-b7e9-311e9c400a78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "713856a0-2ea8-4269-83af-243a753f1a9b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80b05b7a-ff7a-439d-8777-1d1082cb663e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 3.8 -3.5) (xy 3.8 -1.65) (xy 3.3 -1.15) (xy -2.2 -1.15) (xy -2.2 -3.9) (xy 2.2 -3.9) (xy 2.2 -3.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "70c731e5-384a-4b74-96eb-dde4f17bdbb3")
+	)
+	(fp_circle
+		(center -5.8 2.75)
+		(end -5.3 2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "cb760bba-4378-45e9-8171-78eae752c550")
+	)
+	(fp_circle
+		(center 5.8 -2.75)
+		(end 6.4 -2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "950c59f4-bbed-45a2-99ed-0fff6891e5df")
+	)
+	(fp_rect
+		(start -8.475 8.475)
+		(end 8.475 -8.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7c1d5a43-8ce4-490f-a129-4b6f24c56aab")
+	)
+	(fp_rect
+		(start -6.75 -6.5)
+		(end 6.75 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "03f4b44f-2079-4eba-b121-224dbd51f118")
+	)
+	(pad "1" smd roundrect
+		(at -2.5 2.65)
+		(size 1.55 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1290322581)
+		(thermal_bridge_angle 45)
+		(uuid "b3b71ade-ae61-4fc8-be21-8077e9b9f390")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 2.65)
+		(size 1.55 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1290322581)
+		(thermal_bridge_angle 45)
+		(uuid "a687ab10-6e88-48a7-a6e3-9f6a7b70353b")
+	)
+	(pad "3" smd roundrect
+		(at -6.35 -6)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "5ca28a00-5aad-4066-af9d-cf355b231380")
+	)
+	(pad "3" smd roundrect
+		(at -6.35 6)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "b599a6c2-0173-4612-9fc9-99c3a9258d14")
+	)
+	(pad "3" smd roundrect
+		(at 6.35 -6)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "e05f8123-7a20-4d50-bc4e-a806db5d9a46")
+	)
+	(pad "3" smd roundrect
+		(at 6.35 6)
+		(size 2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "2198f60e-b496-42f6-9063-117e42d13c99")
+	)
+	(embedded_fonts no)
+	(model "/home/miwayho/kicad/inpulib/step/switches/PG1316S.STEP"
+		(offset
+			(xyz -4.75 -6.25 -10.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

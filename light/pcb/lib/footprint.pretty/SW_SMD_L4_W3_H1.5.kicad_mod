@@ -4,10 +4,10 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "SPST tactile switch, SMD, 2 pins, 4×3×1.5 mm")
-	(property "Reference" "SW"
+	(property "Reference" "REF**"
 		(at 0 -2.413 0)
 		(layer "F.Fab")
-		(uuid "8b82a8e0-7e68-4d7c-ade3-68c05e20a073")
+		(uuid "005e9878-fff3-4ce6-a76c-0652b3b56692")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "Val**"
+	(property "Value" "~"
 		(at 0 -2.286 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a3b9be02-57ec-44e9-8116-9374f18e469a")
+		(uuid "4fd65f1d-8dc3-4661-b8b6-ea27f365dc45")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f5e7ce2f-35ca-4dc7-ab01-c480fcd82559")
+		(uuid "918f54bc-835a-4626-b9c1-7da5ba08828b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ebe38754-d47c-4f4b-b466-2435a3ef001c")
+		(uuid "00969256-46b2-4d36-98fc-1619708a5edd")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "f8325f14-a448-4219-be62-791262662536")
+		(uuid "dcb9066f-f040-47e8-be87-8ec31156ec3a")
 	)
 	(fp_rect
 		(start -2 -1.5)
@@ -72,21 +72,21 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "2d05787c-9777-4492-8917-e999c30b28ce")
+		(uuid "ef1927ca-7c5e-4451-9d51-bc90100b72b6")
 	)
 	(pad "1" smd roundrect
 		(at -2.4 0)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
-		(uuid "cd9eda2b-e703-4a3a-9150-595ee4e9b7db")
+		(uuid "707e88f3-cec3-47aa-a3a3-db42445d593b")
 	)
 	(pad "2" smd roundrect
 		(at 2.4 0)
 		(size 1.2 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
-		(uuid "a77411c5-f1dd-45b4-907d-b46d8d6102ba")
+		(uuid "c42120cc-39e7-4a5c-b41d-bf8600f4839f")
 	)
 	(embedded_fonts no)
 	(model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.wrl"

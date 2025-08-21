@@ -509,10 +509,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../pngerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "PNCATEHO.step",
       "svg": "",
       "vrml": ""
     },

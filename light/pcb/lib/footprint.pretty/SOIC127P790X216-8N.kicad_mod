@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0.27531 -3.73917 0)
 		(layer "F.Fab")
-		(uuid "087a321b-bec0-420f-b577-130120496e85")
+		(uuid "bb727971-c90a-42ae-a066-2927c3a53183")
 		(effects
 			(font
 				(size 1.001118 1.001118)
@@ -14,11 +14,11 @@
 			)
 		)
 	)
-	(property "Value" "SOIC127P790X216-8N"
+	(property "Value" "W25Q32JVSSIQ"
 		(at 0.117 3.658 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5af2adb2-f8b8-4ce1-8de0-6a62fdc7f936")
+		(uuid "71e42d5b-ef42-4a77-a375-c402d60611d3")
 		(effects
 			(font
 				(size 1.001835 1.001835)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8b6387cf-8d28-45ff-b709-1c44ae2eedaa")
+		(uuid "ade2447f-f72c-45ed-803b-e8eb92dcfe5d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,10 +42,140 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cc12853d-fbf9-4b45-a564-bcb47e18fd31")
+		(uuid "ec2d4f7e-924c-44d8-b78f-4b530c254117")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SHOP" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6dd69a22-c36b-47e0-b648-a5d327b178d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Winbond"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40afabdf-3c73-4f4b-b24b-7ae33f865824")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 133 MHz 8-SOIC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57f39cca-306e-40d7-b970-623a4593fc8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "SOIC-8 Winbond"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "619bfda8-c91e-4d39-8eaa-cf74f6ff1100")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acaf8d92-6aa9-489e-975f-946a67244272")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30ae7da8-5d5c-452b-86c4-2e083d11a5cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "W25Q32JVSSIQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "631ec596-b62b-4162-ace1-d8f0ffdf207d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "M_PART_NUMBER" "W25QXX"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8dcef56-e900-4187-bed7-de25f5054bf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b017c6c4-6c27-45f0-98f9-d1a7e7d22b32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91932aec-dc80-4c82-978f-55d398779ee1")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -60,7 +190,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "623a077b-21a5-461f-a405-cc96929ce152")
+		(uuid "14c92fbc-b866-451e-9149-8e7f76d0b444")
 	)
 	(fp_circle
 		(center -1.8 -1.9)
@@ -71,7 +201,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "4cdeba93-5c16-47a0-984d-c5315a7c37f4")
+		(uuid "3d4efdd3-a4a0-4c5d-9471-875eee5d6ff8")
 	)
 	(fp_circle
 		(center -1.8 -1.9)
@@ -82,7 +212,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "ebe42ea9-b7a7-461b-8d9b-2a93f9711646")
+		(uuid "c4798dcc-4d73-4d1b-9a5e-eb24dcd77a82")
 	)
 	(fp_circle
 		(center -1.8 -1.9)
@@ -93,7 +223,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "702eb4c2-795a-47f4-b9e6-a189104b87ba")
+		(uuid "8477777c-0868-4d60-96d4-2446af96b1ae")
 	)
 	(fp_circle
 		(center -1.8 -1.8)
@@ -104,7 +234,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "cba92306-c4a1-437b-90b7-3f96ca6ae71d")
+		(uuid "68f99403-038c-43c8-90b7-8946590fb397")
 	)
 	(fp_line
 		(start -4.65 -2.95)
@@ -114,7 +244,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "54eebded-19ab-4d13-9f27-d14a55b2646f")
+		(uuid "0092bd91-6b02-443b-bf7f-50362716f20b")
 	)
 	(fp_line
 		(start -4.65 2.95)
@@ -124,7 +254,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "804b3c8c-d381-40c5-b407-0ba3fa496d32")
+		(uuid "2061aa99-3a12-4eec-a1f2-4ded69f93f19")
 	)
 	(fp_line
 		(start 4.65 -2.95)
@@ -134,7 +264,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f6f84619-00ad-4927-b058-7abd35886e92")
+		(uuid "35b5f76f-7b37-4352-b0f7-5bae02dcffa1")
 	)
 	(fp_line
 		(start 4.65 2.95)
@@ -144,63 +274,63 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ec755586-4b9d-4299-8118-96234519b4c2")
+		(uuid "1c24a411-5cb3-4441-a45a-212ae5dbf96d")
 	)
 	(pad "1" smd oval
 		(at -3.6 -1.905)
 		(size 1.6 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "e76f5387-ab89-4b32-8758-89488c6f37e8")
+		(uuid "d6a0e720-dce4-4e74-9060-d4eae631eeca")
 	)
 	(pad "2" smd oval
 		(at -3.6 -0.635)
 		(size 1.6 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "1bf79c3f-05f2-477b-b57c-6f232071a469")
+		(uuid "f25e9e2b-7d34-4409-bcf3-05ea0e8d1870")
 	)
 	(pad "3" smd oval
 		(at -3.6 0.635)
 		(size 1.6 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "f52943b0-bc4e-446f-968a-ba390a43fad3")
+		(uuid "574e6d2a-f668-4478-9147-a1c7c15666e7")
 	)
 	(pad "4" smd oval
 		(at -3.6 1.905)
 		(size 1.6 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "3a48acc8-3b7f-4129-b509-92203e20dd31")
+		(uuid "a17ecd8e-afde-477a-8b2b-39064a471586")
 	)
 	(pad "5" smd oval
 		(at 3.6 1.905)
 		(size 1.6 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "60fca97a-4d47-4f1e-ba09-dd3915a90349")
+		(uuid "b1fb7ce6-321c-4b04-9f27-a3aad33125a0")
 	)
 	(pad "6" smd oval
 		(at 3.6 0.635)
 		(size 1.6 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "b546d710-95af-46f7-a307-084d0e25e3e7")
+		(uuid "53c1c3f7-b3be-414c-8bd3-9fdd2df59b4a")
 	)
 	(pad "7" smd oval
 		(at 3.6 -0.635)
 		(size 1.6 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "1153582e-fda6-4cb1-86cc-a267a153aa76")
+		(uuid "acd4067d-8259-482a-b965-40e57e223675")
 	)
 	(pad "8" smd oval
 		(at 3.6 -1.905)
 		(size 1.6 0.6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "c6fc6754-07b4-42d5-b6bd-8edf6dd7c63a")
+		(uuid "eaaefafa-6f6d-4704-bba4-a898fa299ae4")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/step/W25Q32JVSSIQ--3DModel-STEP-269445.STEP"
