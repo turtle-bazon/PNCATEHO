@@ -5361,7 +5361,7 @@
 	)
 	(global_label "R1C2"
 		(shape input)
-		(at 217.17 72.39 0)
+		(at 217.17 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5371,7 +5371,7 @@
 		)
 		(uuid "1f8bd10e-ea97-4fd1-b1a7-1716583b6c79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.1142 72.39 0)
+			(at 225.1142 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5383,7 @@
 	)
 	(global_label "R2C2"
 		(shape input)
-		(at 217.17 82.55 0)
+		(at 217.17 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5393,7 +5393,7 @@
 		)
 		(uuid "289ef9b2-a88b-43de-acc2-2a4ab595855f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.1142 82.55 0)
+			(at 225.1142 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +5405,7 @@
 	)
 	(global_label "R1C3"
 		(shape input)
-		(at 217.17 74.93 0)
+		(at 217.17 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5415,7 +5415,7 @@
 		)
 		(uuid "2b607d51-e0a7-4c3a-abdc-05a6895229de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.1142 74.93 0)
+			(at 225.1142 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5559,7 @@
 	)
 	(global_label "R2C1"
 		(shape input)
-		(at 217.17 80.01 0)
+		(at 217.17 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5569,7 +5569,7 @@
 		)
 		(uuid "3e45cec8-9206-4889-9565-e24307806efa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.1142 80.01 0)
+			(at 225.1142 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +5625,7 @@
 	)
 	(global_label "R2C3"
 		(shape input)
-		(at 217.17 85.09 0)
+		(at 217.17 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5635,7 +5635,7 @@
 		)
 		(uuid "584fc426-5626-4408-99a1-afcbcc753f3f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.1142 85.09 0)
+			(at 225.1142 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,7 +5867,7 @@
 	)
 	(global_label "R1C4"
 		(shape input)
-		(at 217.17 77.47 0)
+		(at 217.17 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5877,7 +5877,7 @@
 		)
 		(uuid "97d6bd69-bdfd-431b-9770-e2258cdcad22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.1142 77.47 0)
+			(at 225.1142 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +5977,7 @@
 	)
 	(global_label "R1C1"
 		(shape input)
-		(at 217.17 69.85 0)
+		(at 217.17 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5987,7 +5987,7 @@
 		)
 		(uuid "ab60e143-7783-4198-8e85-c6905088a8c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.1142 69.85 0)
+			(at 225.1142 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,7 +6175,7 @@
 	)
 	(global_label "R2C4"
 		(shape input)
-		(at 217.17 87.63 0)
+		(at 217.17 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6185,7 +6185,7 @@
 		)
 		(uuid "c712b725-f006-4fbe-a945-466e12944cbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.1142 87.63 0)
+			(at 225.1142 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6395,7 @@
 	)
 	(global_label "R3C4"
 		(shape input)
-		(at 217.17 90.17 0)
+		(at 217.17 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6405,7 +6405,7 @@
 		)
 		(uuid "ee5297e9-8de9-4293-a89d-02d692115fc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.1142 90.17 0)
+			(at 225.1142 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +6417,7 @@
 	)
 	(global_label "R3C5"
 		(shape input)
-		(at 217.17 92.71 0)
+		(at 217.17 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6427,7 +6427,7 @@
 		)
 		(uuid "fbde1e26-564e-4a27-b2f0-4b151e651470")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.1142 92.71 0)
+			(at 225.1142 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +6464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 73.3552 34.29 0)
 			(effects
 				(font
@@ -6668,7 +6668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 22.5552 204.47 0)
 			(effects
 				(font
@@ -6737,7 +6737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 22.5552 181.61 0)
 			(effects
 				(font
@@ -6869,7 +6869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "PNCATEHO:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 52.07 34.798 90)
 			(effects
 				(font
@@ -7137,7 +7137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "PNCATEHO:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 232.41 39.878 90)
 			(effects
 				(font
@@ -7275,7 +7275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "PNCATEHO:TestPoint_Pad_D2.0mm"
 			(at 109.22 132.08 0)
 			(effects
 				(font
@@ -7340,7 +7340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "PNCATEHO:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 241.3 33.655 0)
 			(effects
 				(font
@@ -7475,7 +7475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 118.11 36.5252 0)
 			(effects
 				(font
@@ -7679,7 +7679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:RP2040-QFN-56"
+		(property "Footprint" "PNCATEHO:RP2040-QFN-56"
 			(at 191.77 107.95 0)
 			(effects
 				(font
@@ -7913,7 +7913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 60.6552 181.61 0)
 			(effects
 				(font
@@ -7982,7 +7982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 35.2552 204.47 0)
 			(effects
 				(font
@@ -8051,7 +8051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 118.11 26.3652 0)
 			(effects
 				(font
@@ -8316,7 +8316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "PNCATEHO:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 241.3 20.955 0)
 			(effects
 				(font
@@ -8452,7 +8452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "PNCATEHO:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 36.068 90.17 90)
 			(effects
 				(font
@@ -8522,7 +8522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprint:SW_SMD_L4_W3_H1.5"
+		(property "Footprint" "PNCATEHO:SW_SMD_L4_W3_H1.5"
 			(at 209.55 29.21 0)
 			(effects
 				(font
@@ -8723,7 +8723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 35.2552 181.61 0)
 			(effects
 				(font
@@ -8924,7 +8924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 115.2652 181.61 0)
 			(effects
 				(font
@@ -9125,7 +9125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 47.9552 181.61 0)
 			(effects
 				(font
@@ -9321,9 +9321,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "footprint:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "PNCATEHO:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 161.29 79.248 90)
 			(effects
 				(font
@@ -9721,7 +9722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 53.0352 204.47 0)
 			(effects
 				(font
@@ -9790,7 +9791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "PNCATEHO:TestPoint_Pad_D2.0mm"
 			(at 176.53 30.48 0)
 			(effects
 				(font
@@ -9987,7 +9988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:USB_C_Receptacle_TYPE-C-31-M-12"
+		(property "Footprint" "PNCATEHO:USB_C_Receptacle_TYPE-C-31-M-12"
 			(at 35.56 40.64 0)
 			(effects
 				(font
@@ -10167,7 +10168,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 116.5352 90.17 0)
 			(effects
 				(font
@@ -10236,7 +10237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 98.7552 181.61 0)
 			(effects
 				(font
@@ -10435,7 +10436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 106.3752 34.29 0)
 			(effects
 				(font
@@ -10838,7 +10839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprint:SW_SMD_L4_W3_H1.5"
+		(property "Footprint" "PNCATEHO:SW_SMD_L4_W3_H1.5"
 			(at 179.07 29.21 0)
 			(effects
 				(font
@@ -10969,9 +10970,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "footprint:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "PNCATEHO:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 161.29 81.788 90)
 			(effects
 				(font
@@ -11038,7 +11040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "PNCATEHO:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 232.41 27.178 90)
 			(effects
 				(font
@@ -11105,7 +11107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "PNCATEHO:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 52.07 32.258 90)
 			(effects
 				(font
@@ -11172,7 +11174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:Fuse_0805_2012Metric"
+		(property "Footprint" "PNCATEHO:Fuse_0805_2012Metric"
 			(at 57.15 24.13 0)
 			(effects
 				(font
@@ -11374,7 +11376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "PNCATEHO:TestPoint_Pad_D2.0mm"
 			(at 109.22 144.78 0)
 			(effects
 				(font
@@ -11440,7 +11442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 86.0552 181.61 0)
 			(effects
 				(font
@@ -11508,7 +11510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL"
+		(property "Footprint" "PNCATEHO:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL"
 			(at 86.36 39.37 0)
 			(effects
 				(font
@@ -11653,7 +11655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "PNCATEHO:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 133.35 30.48 0)
 			(effects
 				(font
@@ -11794,7 +11796,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:SOIC127P790X216-8N"
+		(property "Footprint" "PNCATEHO:SOIC127P790X216-8N"
 			(at 73.66 97.79 0)
 			(effects
 				(font
@@ -12046,7 +12048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "PNCATEHO:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 41.148 90.17 90)
 			(effects
 				(font
@@ -12113,7 +12115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "PNCATEHO:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 144.78 37.338 90)
 			(effects
 				(font
@@ -12385,7 +12387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "PNCATEHO:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 73.3552 181.61 0)
 			(effects
 				(font
@@ -12588,7 +12590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "PNCATEHO:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 194.31 36.068 90)
 			(effects
 				(font
