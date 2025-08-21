@@ -89,7 +89,7 @@
 		(uuid "c42120cc-39e7-4a5c-b41d-bf8600f4839f")
 	)
 	(embedded_fonts no)
-	(model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.wrl"
+	(model "${KIPRJMOD}/lib/step/SW_SPST_B3U-1000P-B.step"
 		(offset
 			(xyz 0 0 0)
 		)
