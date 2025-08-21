@@ -7,7 +7,7 @@
 	(tags "capacitor handsolder")
 	(property "Reference" "REF**"
 		(at 0 -1.68 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "ae4d2971-54c8-4dbd-a582-6afe2aeed19e")
 		(effects
 			(font

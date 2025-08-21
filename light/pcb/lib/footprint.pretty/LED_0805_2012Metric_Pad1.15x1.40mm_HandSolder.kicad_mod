@@ -7,7 +7,7 @@
 	(tags "LED handsolder")
 	(property "Reference" "REF**"
 		(at 0 -1.65 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "def94fdb-5633-4523-9ffb-13f6faab8214")
 		(effects
 			(font

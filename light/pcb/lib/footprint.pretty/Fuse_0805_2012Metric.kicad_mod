@@ -7,7 +7,7 @@
 	(tags "fuse")
 	(property "Reference" "REF**"
 		(at 0 -1.65 180)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "bbb2b61a-b977-4aab-a33e-3632ee3f6d06")
 		(effects

@@ -89,10 +89,11 @@
 			)
 		)
 	)
-	(pad "1" smd circle
+	(pad "1" smd roundrect
 		(at 0 0 180)
 		(size 1.35 1.35)
 		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
 		(uuid "4b4efc01-2fac-4660-b89d-dbfee61051c0")
 	)
 	(embedded_fonts no)

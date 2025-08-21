@@ -7,7 +7,7 @@
 	(tags "resistor handsolder")
 	(property "Reference" "REF**"
 		(at 0 -1.65 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "8b9a85c2-f1ae-40d8-b070-ef5d4132c0d2")
 		(effects
 			(font

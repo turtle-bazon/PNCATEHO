@@ -7,7 +7,7 @@
 	(tags "diode handsolder")
 	(property "Reference" "REF**"
 		(at 0 -1.65 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "dc5a5e6d-a085-4736-a13b-bc8ac1cf73e1")
 		(effects
 			(font

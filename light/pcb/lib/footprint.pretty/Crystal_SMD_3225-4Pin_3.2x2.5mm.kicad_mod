@@ -6,7 +6,7 @@
 	(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
 	(property "Reference" "REF**"
 		(at 0 -2.45 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "b0e41587-d453-44da-b756-40dc09ac5821")
 		(effects
 			(font
