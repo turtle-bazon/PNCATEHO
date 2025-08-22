@@ -509,7 +509,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../PNCATEHOGERBER/",
+      "plot": "../../../gerber02/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../../../Downloads/PNCATEHO.step",
