@@ -6589,7 +6589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "switches:SW_PG1316"
+		(property "Footprint" "PNCATEHO:SW_PG1316"
 			(at 43.18 116.84 0)
 			(effects
 				(font
@@ -6994,7 +6994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "switches:SW_PG1316"
+		(property "Footprint" "PNCATEHO:SW_PG1316"
 			(at 76.2 147.32 0)
 			(effects
 				(font
@@ -7196,7 +7196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "switches:SW_PG1316"
+		(property "Footprint" "PNCATEHO:SW_PG1316"
 			(at 59.69 147.32 0)
 			(effects
 				(font
@@ -7601,7 +7601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "switches:SW_PG1316"
+		(property "Footprint" "PNCATEHO:SW_PG1316"
 			(at 76.2 132.08 0)
 			(effects
 				(font
@@ -8442,7 +8442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "switches:SW_PG1316"
+		(property "Footprint" "PNCATEHO:SW_PG1316"
 			(at 59.69 116.84 0)
 			(effects
 				(font
@@ -8570,7 +8570,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Reset"
 			(at 209.55 35.814 0)
 			(effects
 				(font
@@ -10760,7 +10760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "switches:SW_PG1316"
+		(property "Footprint" "PNCATEHO:SW_PG1316"
 			(at 59.69 132.08 0)
 			(effects
 				(font
@@ -10887,7 +10887,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Boot"
 			(at 179.07 35.814 0)
 			(effects
 				(font
@@ -11645,7 +11645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "switches:SW_PG1316"
+		(property "Footprint" "PNCATEHO:SW_PG1316"
 			(at 26.67 116.84 0)
 			(effects
 				(font
@@ -12306,7 +12306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "switches:SW_PG1316"
+		(property "Footprint" "PNCATEHO:SW_PG1316"
 			(at 26.67 132.08 0)
 			(effects
 				(font
@@ -12375,7 +12375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "switches:SW_PG1316"
+		(property "Footprint" "PNCATEHO:SW_PG1316"
 			(at 76.2 116.84 0)
 			(effects
 				(font
@@ -12579,7 +12579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "switches:SW_PG1316"
+		(property "Footprint" "PNCATEHO:SW_PG1316"
 			(at 43.18 132.08 0)
 			(effects
 				(font
