@@ -1,11 +1,10 @@
-(footprint "SW_SMD_L4_W3_H1.5"
+(footprint "PADS"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "SPST tactile switch, SMD, 2 pins, 4×3×1.5 mm")
 	(property "Reference" "REF**"
-		(at 0 -2.413 0)
+		(at -1 -1.5 0)
 		(layer "F.Fab")
 		(uuid "005e9878-fff3-4ce6-a76c-0652b3b56692")
 		(effects
@@ -52,41 +51,19 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start -2 -1.5)
-		(end 2 1.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "ef1927ca-7c5e-4451-9d51-bc90100b72b6")
-	)
 	(pad "1" smd roundrect
 		(at -2.4 0)
-		(size 1.2 1.8)
+		(size 1 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(uuid "707e88f3-cec3-47aa-a3a3-db42445d593b")
 	)
 	(pad "2" smd roundrect
-		(at 2.4 0)
-		(size 1.2 1.8)
+		(at -0.5 0)
+		(size 1 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(uuid "c42120cc-39e7-4a5c-b41d-bf8600f4839f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/step/SW_SPST_B3U-1000P-B.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1.333 1.2 1.25)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
