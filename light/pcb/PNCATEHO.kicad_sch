@@ -2839,6 +2839,542 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PNCATEHO:USBLC6-2SC6"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USBLC6-2SC6"
+				(at 2.54 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb ethernet video"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_1"
+				(rectangle
+					(start -7.62 -7.62)
+					(end 7.62 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 2.794) (xy -1.524 2.794) (xy -2.54 4.826) (xy -3.556 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 -4.826) (xy -1.524 -4.826) (xy -2.54 -2.794) (xy -3.556 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 4.826) (xy -3.556 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -2.794) (xy -3.556 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 1.016 -1.016) (xy 0 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 6.35)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -6.35)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 0.762 1.016) (xy -1.016 1.016) (xy -1.016 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 4.826) (xy 3.556 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.794) (xy 3.556 -2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 2.794) (xy 1.524 2.794) (xy 2.54 4.826) (xy 3.556 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -4.826) (xy 1.524 -4.826) (xy 2.54 -2.794) (xy 3.556 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_1_1"
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PNCATEHO:USB_C_Receptacle_USB2.0"
 			(pin_names
 				(offset 1.016)
@@ -4767,6 +5303,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 187.96) (xy 137.16 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de769ae-a119-420b-81a2-ff3c6949ab24")
+	)
+	(wire
+		(pts
 			(xy 41.91 90.17) (xy 55.88 90.17)
 		)
 		(stroke
@@ -4987,6 +5533,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 177.8) (xy 147.32 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8746bb9f-a9b3-49ba-ad34-82d27f365e71")
+	)
+	(wire
+		(pts
 			(xy 46.99 44.45) (xy 46.99 45.72)
 		)
 		(stroke
@@ -5134,6 +5690,26 @@
 			(type default)
 		)
 		(uuid "b45a7b5e-076f-41a0-ae1f-144138a4bc2d")
+	)
+	(wire
+		(pts
+			(xy 158.75 193.04) (xy 157.48 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b5f69c-af46-4132-b2cc-6ffadf41808f")
+	)
+	(wire
+		(pts
+			(xy 158.75 187.96) (xy 157.48 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf395c6a-2fa4-4ffa-b4cc-1bdf64ecb9e0")
 	)
 	(wire
 		(pts
@@ -5559,7 +6135,7 @@
 	)
 	(global_label "USB_D-"
 		(shape input)
-		(at 157.48 193.04 0)
+		(at 158.75 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5569,7 +6145,7 @@
 		)
 		(uuid "4415cb98-4fef-436e-8833-0af4ae1c13ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.0852 193.04 0)
+			(at 169.3552 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +6157,7 @@
 	)
 	(global_label "USBBN"
 		(shape input)
-		(at 137.16 187.96 180)
+		(at 135.89 187.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5591,7 +6167,7 @@
 		)
 		(uuid "45d38400-ca16-41c8-a235-c4c960943d6d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.7643 187.96 0)
+			(at 126.4943 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +7037,7 @@
 	)
 	(global_label "USBBP"
 		(shape input)
-		(at 157.48 187.96 0)
+		(at 158.75 187.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6471,7 +7047,7 @@
 		)
 		(uuid "faa6adce-70f5-4ed1-a8c7-89228ff0dc53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.8152 187.96 0)
+			(at 168.0852 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10410,6 +10986,88 @@
 		)
 	)
 	(symbol
+		(lib_id "PNCATEHO:USBLC6-2SC6")
+		(at 147.32 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "907c42ed-629f-455c-8c2e-1cec17c9d6bf")
+		(property "Reference" "U4"
+			(at 148.9711 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 148.9711 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PNCATEHO:SOT-23-6_Handsoldering_REV"
+			(at 147.32 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 152.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 147.32 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f196161-8ae7-49f9-b8f0-804f0f7ac3b9")
+		)
+		(pin "4"
+			(uuid "42906d06-f6b5-4ebb-a4d1-02e168943b24")
+		)
+		(pin "2"
+			(uuid "fb20e74f-696d-4944-aa2e-4aa1cdc9fec9")
+		)
+		(pin "6"
+			(uuid "e14890ce-5bc9-4002-b7b2-0074689843de")
+		)
+		(pin "5"
+			(uuid "b79f1544-4ff5-4b2e-a756-27ce3d00930e")
+		)
+		(pin "3"
+			(uuid "ff8119d6-e400-44df-9943-16dd1913decb")
+		)
+		(instances
+			(project ""
+				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PNCATEHO:C")
 		(at 97.79 177.8 0)
 		(unit 1)
@@ -12558,7 +13216,7 @@
 	)
 	(symbol
 		(lib_id "PNCATEHO:+5V")
-		(at 147.32 180.34 0)
+		(at 147.32 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12567,7 +13225,7 @@
 		(fields_autoplaced yes)
 		(uuid "e746b489-64f1-4aa0-a373-53c7ee7f61ef")
 		(property "Reference" "#PWR021"
-			(at 147.32 184.15 0)
+			(at 147.32 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12576,7 +13234,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 147.32 175.26 0)
+			(at 147.32 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12584,7 +13242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 180.34 0)
+			(at 147.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12593,7 +13251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 180.34 0)
+			(at 147.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12602,7 +13260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 147.32 180.34 0)
+			(at 147.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12821,6 +13479,72 @@
 			(project ""
 				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PNCATEHO:TestPoint")
+		(at 95.25 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0a350fd-a5d7-4514-bfa8-d2962f1596d2")
+		(property "Reference" "TP4"
+			(at 93.218 132.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3"
+			(at 91.948 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PNCATEHO:TestPoint_Pad_D2.0mm"
+			(at 100.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2e25bf6-65da-4472-8759-712857bb2f8c")
+		)
+		(instances
+			(project "PNCATEHO"
+				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
