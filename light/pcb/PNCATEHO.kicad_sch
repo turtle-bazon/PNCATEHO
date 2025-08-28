@@ -766,185 +766,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PNCATEHO:D_Generic"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 1.778 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" ""
-				(at 0.254 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic LED, 2-pin, through hole or SMD"
-				(at 0.254 -5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*5.0mm*IRGrey*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Generic_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667) (xy 0.381 3.175) (xy -0.127 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.127 1.651) (xy 1.651 3.175) (xy 1.651 2.667)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.651 3.175) (xy 1.143 3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Generic_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PNCATEHO:GND"
 			(power)
 			(pin_numbers
@@ -4511,7 +4332,7 @@
 	)
 	(rectangle
 		(start 161.29 15.875)
-		(end 219.075 46.609)
+		(end 190.5 46.609)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4556,18 +4377,6 @@
 			(type none)
 		)
 		(uuid f19e807d-b756-484c-bd4d-2560bb9d0c50)
-	)
-	(rectangle
-		(start 220.345 15.875)
-		(end 262.255 46.609)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f4a9cca3-1dc5-4a49-9529-4a06d6c9fc9d)
 	)
 	(text "LDO\n"
 		(exclude_from_sim no)
@@ -4638,16 +4447,6 @@
 			)
 		)
 		(uuid "b4b9ae9a-7bf0-4a67-b963-aff362f41fc1")
-	)
-	(text "Led"
-		(exclude_from_sim no)
-		(at 223.774 19.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bf052b5e-426c-4f89-8af9-fabcce3c9455")
 	)
 	(text "MCU"
 		(exclude_from_sim no)
@@ -4964,16 +4763,6 @@
 	(no_connect
 		(at 217.17 113.03)
 		(uuid "f6d9ba08-7230-4d3e-a7dd-18cac0635f3d")
-	)
-	(wire
-		(pts
-			(xy 236.22 38.1) (xy 237.49 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00651968-c75b-4a2e-91ac-9d7bdf8c9dad")
 	)
 	(wire
 		(pts
@@ -5367,16 +5156,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 38.1) (xy 245.11 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "615b91d5-798d-4d10-a71a-c395dc886183")
-	)
-	(wire
-		(pts
 			(xy 46.99 39.37) (xy 46.99 40.64)
 		)
 		(stroke
@@ -5394,16 +5173,6 @@
 			(type default)
 		)
 		(uuid "6b260636-d3c4-457c-a7ce-25c1acc30591")
-	)
-	(wire
-		(pts
-			(xy 236.22 25.4) (xy 237.49 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6caaf88e-10d6-49e4-a1c0-5803a094cdbd")
 	)
 	(wire
 		(pts
@@ -5457,16 +5226,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 25.4) (xy 245.11 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "760417c9-95b6-4a90-bcd5-ab9699d59f5f")
-	)
-	(wire
-		(pts
 			(xy 166.37 88.9) (xy 166.37 87.63)
 		)
 		(stroke
@@ -5494,16 +5253,6 @@
 			(type default)
 		)
 		(uuid "80a77101-11e3-4ee2-b038-5ee73c85b285")
-	)
-	(wire
-		(pts
-			(xy 224.79 38.1) (xy 228.6 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86b884f8-527a-4b48-9859-c140d85c1ebc")
 	)
 	(wire
 		(pts
@@ -5684,16 +5433,6 @@
 			(type default)
 		)
 		(uuid "bf395c6a-2fa4-4ffa-b4cc-1bdf64ecb9e0")
-	)
-	(wire
-		(pts
-			(xy 224.79 25.4) (xy 228.6 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c03efca6-18e9-4bd1-a747-8832706ff589")
 	)
 	(wire
 		(pts
@@ -6144,28 +5883,6 @@
 		(uuid "46d046dc-2ee8-418f-8028-d4e15a0314e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 102.2871 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "STATE_LED"
-		(shape input)
-		(at 247.65 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "477aa454-c3c0-43cd-84b9-2835a855cec0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.4322 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,73 +7404,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PNCATEHO:R")
-		(at 232.41 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "198aedfe-b724-4979-9db5-6f9816adbf49")
-		(property "Reference" "R10"
-			(at 232.41 35.814 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 232.41 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PNCATEHO:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 232.41 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 232.41 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "37028319-07ee-4094-a720-1f5279894eb7")
-		)
-		(pin "1"
-			(uuid "07874fca-80e5-4c0c-8fee-1ed49ba86fba")
-		)
-		(instances
-			(project "PNCATEHO"
-				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PNCATEHO:SW_Push")
 		(at 59.69 152.4 0)
 		(unit 1)
@@ -7883,74 +7533,6 @@
 			(project ""
 				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PNCATEHO:D_Generic")
-		(at 241.3 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "223119a0-d597-4ac7-9247-18ac4a6c4c8b")
-		(property "Reference" "D2"
-			(at 241.427 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLUE"
-			(at 241.554 40.894 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PNCATEHO:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 241.3 33.655 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic LED, 2-pin, through hole or SMD"
-			(at 241.554 43.434 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba88c470-4ae8-4cd7-afc2-d0b3aaa1615d")
-		)
-		(pin "2"
-			(uuid "83627d05-462c-48b0-ba06-5625c6c23953")
-		)
-		(instances
-			(project "PNCATEHO"
-				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8926,74 +8508,6 @@
 			(project ""
 				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PNCATEHO:D_Generic")
-		(at 241.3 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e4c1148-fa75-461f-9546-98e75775bb1b")
-		(property "Reference" "D1"
-			(at 241.427 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED"
-			(at 241.554 28.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PNCATEHO:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 241.3 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic LED, 2-pin, through hole or SMD"
-			(at 241.554 30.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfd8291a-b1bc-4b66-9073-118386f196a8")
-		)
-		(pin "2"
-			(uuid "d8072255-bb02-4f27-b414-d2dae127adbf")
-		)
-		(instances
-			(project ""
-				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10069,72 +9583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PNCATEHO:+3V3")
-		(at 247.65 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7821af0b-0e6a-4dc2-9432-eb8e4b56e4f9")
-		(property "Reference" "#PWR039"
-			(at 247.65 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 247.65 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 247.65 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "361b1784-c4d9-4418-9f3b-326e581a9183")
-		)
-		(instances
-			(project ""
-				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PNCATEHO:GND")
 		(at 48.26 137.16 0)
 		(unit 1)
@@ -10402,72 +9850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PNCATEHO:GND")
-		(at 224.79 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88b71b8d-1c29-42eb-86e1-afead0518eb9")
-		(property "Reference" "#PWR040"
-			(at 224.79 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "872cba3b-3e01-4c96-bd7c-d2709b4fb747")
-		)
-		(instances
-			(project "PNCATEHO"
-				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PNCATEHO:USB_C_Receptacle_USB2.0")
 		(at 31.75 40.64 0)
 		(unit 1)
@@ -10575,72 +9957,6 @@
 			(project ""
 				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PNCATEHO:GND")
-		(at 224.79 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a3425dd-ff99-43f8-83b1-00db3e3fb93d")
-		(property "Reference" "#PWR038"
-			(at 224.79 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 224.79 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5c31705-0749-4a60-9fc8-7e544832c30d")
-		)
-		(instances
-			(project "PNCATEHO"
-				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -11663,73 +10979,6 @@
 			(project "PNCATEHO"
 				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PNCATEHO:R")
-		(at 232.41 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b84fd26a-528d-42f7-baf3-d54a0a744b4e")
-		(property "Reference" "R9"
-			(at 232.41 23.114 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 232.41 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PNCATEHO:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 232.41 27.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 232.41 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "977bf66d-aeab-4650-a40b-9b6025e9d576")
-		)
-		(pin "1"
-			(uuid "bfaf1069-1738-4c53-88e0-d602e0d97801")
-		)
-		(instances
-			(project "PNCATEHO"
-				(path "/02fc811b-599c-42c6-9c96-ff4b46846544"
-					(reference "R9")
 					(unit 1)
 				)
 			)
