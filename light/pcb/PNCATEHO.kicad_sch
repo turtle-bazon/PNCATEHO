@@ -10395,7 +10395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PNCATEHO:PADS"
+		(property "Footprint" "PNCATEHO:SW_PUSH"
 			(at 201.93 29.21 0)
 			(effects
 				(font
@@ -11660,7 +11660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PNCATEHO:PADS"
+		(property "Footprint" "PNCATEHO:SW_PUSH"
 			(at 179.07 29.21 0)
 			(effects
 				(font
