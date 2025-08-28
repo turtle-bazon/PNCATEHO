@@ -1598,105 +1598,6 @@
 			)
 		)
 	)
-	(footprint "PNCATEHO:SW_SMD_L4_W3_H1.5"
-		(layer "F.Cu")
-		(uuid "2008cfdb-23b4-4216-a68f-f7d513f3da10")
-		(at 177.3 100 -90)
-		(descr "SPST tactile switch, SMD, 2 pins, 4×3×1.5 mm")
-		(property "Reference" "SW12"
-			(at 0 -2.413 90)
-			(layer "F.Fab")
-			(uuid "08e88409-f4fe-4bbe-91df-bed17af4527d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "Reset"
-			(at 3.75 0 180)
-			(layer "F.SilkS")
-			(uuid "da22c8a8-9946-406e-ac20-7bed55f72338")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.125)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22d7085b-e747-4b4d-848f-ceaa7a551baa")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Momentary push button, 2 pins"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "80641b35-84b3-4603-88a8-68745d371cb9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/56c6e664-6995-403e-8378-c4ae4c472d09")
-		(sheetname "/")
-		(sheetfile "PNCATEHO.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -2 -1.5)
-			(end 2 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "01d26893-dad1-4046-af0d-3eb103222082")
-		)
-		(pad "1" smd roundrect
-			(at -2.4 0 270)
-			(size 1.2 1.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.1666666667)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "3e302f8f-3936-42ca-b33e-0d7d356c36b8")
-		)
-		(pad "2" smd roundrect
-			(at 2.4 0 270)
-			(size 1.2 1.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.1666666667)
-			(net 38 "~{RESET}")
-			(pinfunction "2")
-			(pintype "passive")
-			(uuid "a8001f37-1705-4f7d-8d48-a063d2cb85c4")
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/step/SW_SPST_B3U-1000P-B.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1.333 1.2 1.25)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "PNCATEHO:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "21997a4c-86de-4224-9235-e766b26e6ebb")
@@ -4117,7 +4018,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/fc3c99d9-8d40-4cbf-8332-7a6fa815ea2b")
 		(sheetname "/")
 		(sheetfile "PNCATEHO.kicad_sch")
 		(attr smd)
