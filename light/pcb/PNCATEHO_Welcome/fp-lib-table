@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PNCATEHO")(type "KiCad")(uri "/home/miwayho/git/inpudiy/KiCad/PNCATEHO/light/pcb/PNCATEHO_lib/footprint.pretty")(options "")(descr ""))
+)
