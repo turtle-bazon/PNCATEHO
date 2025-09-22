@@ -5705,6 +5705,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 152.4) (xy 86.36 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a4b015-8dc0-485e-842a-03ee57a26f23")
+	)
+	(wire
+		(pts
 			(xy 269.24 137.16) (xy 267.97 137.16)
 		)
 		(stroke
@@ -6795,16 +6805,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 154.94) (xy 86.36 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df4ca862-6499-4368-9ba5-0c40a474ad77")
-	)
-	(wire
-		(pts
 			(xy 226.06 132.08) (xy 226.06 137.16)
 		)
 		(stroke
@@ -7785,7 +7785,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 92.71 154.94 0)
+		(at 92.71 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7795,7 +7795,7 @@
 		)
 		(uuid "b488936a-fe91-4a52-b51e-e29819dde7ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.1423 154.94 0)
+			(at 99.1423 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8137,7 +8137,7 @@
 	)
 	(global_label "STATE_LED"
 		(shape input)
-		(at 86.36 152.4 0)
+		(at 86.36 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8147,7 +8147,7 @@
 		)
 		(uuid "e45bcb82-09b1-4b21-a3df-c22838abf395")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.1422 152.4 0)
+			(at 99.1422 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
