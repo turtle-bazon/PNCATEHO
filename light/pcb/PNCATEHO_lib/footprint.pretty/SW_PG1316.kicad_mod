@@ -111,18 +111,22 @@
 		(layer "User.1")
 		(uuid "ae195cec-4d8a-4d0c-91a4-213edb58befc")
 	)
-	(pad "1" smd roundrect
+	(pad "1" thru_hole roundrect
 		(at -2.5 2.65)
 		(size 1.55 2)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(roundrect_rratio 0.1290322581)
 		(thermal_bridge_angle 45)
 		(uuid "b3b71ade-ae61-4fc8-be21-8077e9b9f390")
 	)
-	(pad "2" smd roundrect
+	(pad "2" thru_hole roundrect
 		(at 2.5 2.65)
 		(size 1.55 2)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(roundrect_rratio 0.1290322581)
 		(thermal_bridge_angle 45)
 		(uuid "a687ab10-6e88-48a7-a6e3-9f6a7b70353b")
