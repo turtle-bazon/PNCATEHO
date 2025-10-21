@@ -20,6 +20,7 @@
 	(property "Value" "SOT-23-6_Handsoldering"
 		(at 0 2.9 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "083f6f50-2b25-4d22-abd3-d90e2932c1d6")
 		(effects
 			(font

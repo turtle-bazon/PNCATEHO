@@ -9778,7 +9778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PNCATEHO:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "PNCATEHO:TestPoint_Pad_D1.0mm"
 			(at 185.42 137.16 0)
 			(effects
 				(font
@@ -10317,7 +10317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PNCATEHO:RP2040-QFN-56"
+		(property "Footprint" "PNCATEHO:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm_ThermalVias"
 			(at 60.96 129.54 0)
 			(effects
 				(font
@@ -13018,7 +13018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PNCATEHO:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "PNCATEHO:TestPoint_Pad_1.0x1.0mm"
 			(at 166.37 137.16 0)
 			(effects
 				(font
@@ -14522,7 +14522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PNCATEHO:Fuse_0805_2012Metric"
+		(property "Footprint" "PNCATEHO:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 54.61 24.13 0)
 			(effects
 				(font
@@ -14724,7 +14724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PNCATEHO:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "PNCATEHO:TestPoint_Pad_D1.0mm"
 			(at 184.15 121.92 0)
 			(effects
 				(font
@@ -15232,7 +15232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PNCATEHO:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "PNCATEHO:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
 			(at 54.61 201.93 0)
 			(effects
 				(font
@@ -15587,7 +15587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PNCATEHO:SOIC127P790X216-8N"
+		(property "Footprint" "PNCATEHO:SOIC-8_5.3x5.3mm_P1.27mm"
 			(at 158.75 95.25 0)
 			(effects
 				(font
@@ -16593,7 +16593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PNCATEHO:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "PNCATEHO:TestPoint_Pad_D1.0mm"
 			(at 165.1 121.92 0)
 			(effects
 				(font

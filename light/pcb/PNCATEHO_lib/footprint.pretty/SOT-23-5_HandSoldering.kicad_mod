@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.9 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "7738eb5e-7342-4033-80d9-458801360be8")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 	(property "Value" "SOT-23-5_HandSoldering"
 		(at 0 2.9 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "d0a7fec5-6633-47bc-92d4-fb0bc52f8815")
 		(effects
 			(font
@@ -83,18 +85,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "f7deb35e-f70d-466a-89ba-1e28a9790904")
-	)
-	(fp_poly
-		(pts
-			(xy -1.2 -1.56) (xy -1.44 -1.89) (xy -0.96 -1.89) (xy -1.2 -1.56)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "f194f6fc-9f29-4d95-80ff-de06c5fbc866")
 	)
 	(fp_line
 		(start -2.38 -1.8)

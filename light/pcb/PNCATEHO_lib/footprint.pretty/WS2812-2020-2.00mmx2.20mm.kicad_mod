@@ -53,27 +53,15 @@
 	(attr through_hole)
 	(fp_poly
 		(pts
-			(xy 0.13 0.9) (xy 0.53 0.9) (xy 0.53 0.2) (xy 0.13 0.2)
+			(xy 0.04 -0.86) (xy 0.4 -0.86) (xy 0.4 0.85) (xy 0.04 0.85)
 		)
 		(stroke
-			(width 0.01)
+			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "ab255ed9-6da0-4a4e-8069-20131f10c207")
-	)
-	(fp_poly
-		(pts
-			(xy 1.27 0.9) (xy 1.67 0.9) (xy 1.67 0.2) (xy 1.27 0.2)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "6912e3fa-f9f0-46d1-b2a9-8ef98f131ef3")
+		(uuid "86656612-7a73-4281-b1d1-f776a7d1fb0c")
 	)
 	(fp_line
 		(start -1.35 -1.1)

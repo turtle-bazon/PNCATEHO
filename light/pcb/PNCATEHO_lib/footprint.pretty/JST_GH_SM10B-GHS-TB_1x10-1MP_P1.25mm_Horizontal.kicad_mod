@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.9 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "d799c619-438c-4ac0-a3fb-10e6f52c64ba")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 	(property "Value" "JST_GH_SM10B-GHS-TB_1x10-1MP_P1.25mm_Horizontal"
 		(at 0 3.9 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "f4f23897-824e-48e8-88ce-7890315efb31")
 		(effects
 			(font
