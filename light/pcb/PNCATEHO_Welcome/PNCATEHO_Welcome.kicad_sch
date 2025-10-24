@@ -9749,7 +9749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PNCATEHO:PinHeader_1x05_P2.54mm_Vertical"
 			(at 372.11 111.76 0)
 			(effects
 				(font
@@ -15675,7 +15675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PNCATEHO:PinHeader_1x05_P2.54mm_Vertical"
 			(at 372.11 96.52 0)
 			(effects
 				(font
